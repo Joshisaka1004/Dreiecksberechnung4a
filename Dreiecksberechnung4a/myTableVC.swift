@@ -19,11 +19,11 @@ class myTableVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         //myTableView.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: 0, right: 0)
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 50
+        return daten.myItems.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let myCurrent = myTableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
-        myCurrent.textLabel?.text = daten.myItems[indexPath.row]
+        let myCurrent = myTableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! myTableViewCell
+        myCurrent.myTeams.text = daten.myItems[indexPath.row]
         return myCurrent
     }
 }

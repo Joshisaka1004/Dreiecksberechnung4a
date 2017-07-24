@@ -15,6 +15,7 @@
 		3B8E9A1D1F24031500026A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E9A1B1F24031500026A88 /* LaunchScreen.storyboard */; };
 		3B8E9A281F24031600026A88 /* Dreiecksberechnung4aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E9A271F24031600026A88 /* Dreiecksberechnung4aTests.swift */; };
 		3BE4F1201F2636C2007BCC62 /* daten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4F11F1F2636C2007BCC62 /* daten.swift */; };
+		3BE4F1221F263A94007BCC62 /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4F1211F263A94007BCC62 /* myTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3B8E9A271F24031600026A88 /* Dreiecksberechnung4aTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dreiecksberechnung4aTests.swift; sourceTree = "<group>"; };
 		3B8E9A291F24031600026A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE4F11F1F2636C2007BCC62 /* daten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daten.swift; sourceTree = "<group>"; };
+		3BE4F1211F263A94007BCC62 /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				3BE4F11F1F2636C2007BCC62 /* daten.swift */,
 				3B8E9A121F24031500026A88 /* AppDelegate.swift */,
 				3B8E9A161F24031500026A88 /* Main.storyboard */,
+				3BE4F1211F263A94007BCC62 /* myTableViewCell.swift */,
 				3B4EAEFA1F25F5FA00E269D9 /* myMapVC.swift */,
 				3B8E9A191F24031500026A88 /* Assets.xcassets */,
 				3B8E9A1B1F24031500026A88 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8E9A131F24031500026A88 /* AppDelegate.swift in Sources */,
+				3BE4F1221F263A94007BCC62 /* myTableViewCell.swift in Sources */,
 				3B4EAEFB1F25F5FA00E269D9 /* myMapVC.swift in Sources */,
 				3BE4F1201F2636C2007BCC62 /* daten.swift in Sources */,
 				3B4EAEF91F25E23700E269D9 /* myTableVC.swift in Sources */,
