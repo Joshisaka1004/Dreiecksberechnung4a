@@ -11,7 +11,7 @@ import UIKit
 class myData {
     var myItems: [String]!
     init() {
-        myItems = ["Bayern München", "Schalke 04", "Hannover 96", "Eintracht Frankfurt", "Hertha BSC Berlin", "1. FC Köln", "Bor. Dortmund", "Bayern München", "Schalke 04", "Hannover 96", "Eintracht Frankfurt", "Hertha BSC Berlin", "1. FC Köln", "Bor. Dortmund", "Bayern München", "Schalke 04", "Hannover 96", "Eintracht Frankfurt", "Hertha BSC Berlin", "1. FC Köln", "Bor. Dortmund", "Bayern München", "Schalke 04", "Hannover 96", "Eintracht Frankfurt", "Hertha BSC Berlin", "1. FC Köln", "Bor. Dortmund"]
+        myItems = ["Bayern München", "Schalke 04", "Hannover 96", "Eintracht Frankfurt", "Hertha BSC Berlin", "1. FC Köln", "Bor. Dortmund", "Bayern München", "Schalke 04", "Hannover 96", "Eintracht Frankfurt", "Hertha BSC Berlin", "1. FC Köln", "Bor. Dortmund", "Bayern München", "Schalke 04", "Hannover 96", "Eintracht Frankfurt", "Hertha BSC Berlin", "1. FC Köln", "Bor. Dortmund", "Bayern München", "Schalke 04", "Hannover 96", "Eintracht Frankfurt", "Hertha BSC Berlin", "1. FC Köln", "Bor. Dortmund", "TSG Hoffenheim"]
     }
 }
 var daten = myData()
