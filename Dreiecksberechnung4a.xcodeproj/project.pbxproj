@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4EAEF91F25E23700E269D9 /* myTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4EAEF81F25E23700E269D9 /* myTableVC.swift */; };
+		3B4EAEFB1F25F5FA00E269D9 /* myMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4EAEFA1F25F5FA00E269D9 /* myMapVC.swift */; };
 		3B8E9A131F24031500026A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E9A121F24031500026A88 /* AppDelegate.swift */; };
-		3B8E9A151F24031500026A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E9A141F24031500026A88 /* ViewController.swift */; };
 		3B8E9A181F24031500026A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E9A161F24031500026A88 /* Main.storyboard */; };
 		3B8E9A1A1F24031500026A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E9A191F24031500026A88 /* Assets.xcassets */; };
 		3B8E9A1D1F24031500026A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E9A1B1F24031500026A88 /* LaunchScreen.storyboard */; };
 		3B8E9A281F24031600026A88 /* Dreiecksberechnung4aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E9A271F24031600026A88 /* Dreiecksberechnung4aTests.swift */; };
+		3BE4F1201F2636C2007BCC62 /* daten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE4F11F1F2636C2007BCC62 /* daten.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B4EAEF81F25E23700E269D9 /* myTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableVC.swift; sourceTree = "<group>"; };
+		3B4EAEFA1F25F5FA00E269D9 /* myMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMapVC.swift; sourceTree = "<group>"; };
 		3B8E9A0F1F24031500026A88 /* Dreiecksberechnung4a.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dreiecksberechnung4a.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E9A121F24031500026A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B8E9A141F24031500026A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B8E9A171F24031500026A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B8E9A191F24031500026A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8E9A1C1F24031500026A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		3B8E9A231F24031600026A88 /* Dreiecksberechnung4aTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dreiecksberechnung4aTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E9A271F24031600026A88 /* Dreiecksberechnung4aTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dreiecksberechnung4aTests.swift; sourceTree = "<group>"; };
 		3B8E9A291F24031600026A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE4F11F1F2636C2007BCC62 /* daten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daten.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 		3B8E9A111F24031500026A88 /* Dreiecksberechnung4a */ = {
 			isa = PBXGroup;
 			children = (
+				3B4EAEF81F25E23700E269D9 /* myTableVC.swift */,
+				3BE4F11F1F2636C2007BCC62 /* daten.swift */,
 				3B8E9A121F24031500026A88 /* AppDelegate.swift */,
-				3B8E9A141F24031500026A88 /* ViewController.swift */,
 				3B8E9A161F24031500026A88 /* Main.storyboard */,
+				3B4EAEFA1F25F5FA00E269D9 /* myMapVC.swift */,
 				3B8E9A191F24031500026A88 /* Assets.xcassets */,
 				3B8E9A1B1F24031500026A88 /* LaunchScreen.storyboard */,
 				3B8E9A1E1F24031600026A88 /* Info.plist */,
@@ -197,8 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8E9A151F24031500026A88 /* ViewController.swift in Sources */,
 				3B8E9A131F24031500026A88 /* AppDelegate.swift in Sources */,
+				3B4EAEFB1F25F5FA00E269D9 /* myMapVC.swift in Sources */,
+				3BE4F1201F2636C2007BCC62 /* daten.swift in Sources */,
+				3B4EAEF91F25E23700E269D9 /* myTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +434,7 @@
 				3B8E9A2E1F24031600026A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B8E9A2F1F24031600026A88 /* Build configuration list for PBXNativeTarget "Dreiecksberechnung4aTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +443,7 @@
 				3B8E9A311F24031600026A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
